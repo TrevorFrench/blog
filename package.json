@@ -33,6 +33,7 @@
     "inferno": "^7.4.2",
     "inferno-create-element": "^7.4.2",
     "moment": "^2.27.0",
+    "opencollective-postinstall": "^2.0.3",
     "semver": "^7.3.2"
   }
 }
