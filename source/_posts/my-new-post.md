@@ -4,6 +4,9 @@ date: 2020-03-23 00:00:00
 categories: Investment
 tags: Investment
 ---
+
+{% asset_img post-asset-folder/wh.png Hotel Room Door %}
+
 Summary
   - WH is down 58.09% from recent highs of $60.94.
 
