@@ -15,7 +15,8 @@ Muhammad Ali said it best:
 
 I’ll stop leading you all on now.
 
-###Step 1 for Developing Mental Toughness:
+**Step 1 for Developing Mental Toughness:**
+
 **- Do hard things.**
 It’s such a simple truth, it almost sounds paradoxical, doesn’t it? You might be asking “How can I develop the mental toughness to do hard things if I have to do hard things in order to develop it?”
 
