@@ -2,11 +2,11 @@
 title: Presidential Stock Market Returns
 date: 2020-03-21 00:00:00
 categories:
-- Investment
-- History
+ - Investment
+ - History
 tags:
-- Investment
-- History
+ - Investment
+ - History
 ---
 Can the performance of U.S. presidents be measured by stock market performance? How has the market performed throughout the tenure of various presidents?
 
