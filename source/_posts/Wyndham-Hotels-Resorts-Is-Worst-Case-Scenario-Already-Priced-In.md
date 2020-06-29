@@ -5,7 +5,7 @@ categories: Investment
 tags: Investment
 ---
 
-![Alt Text](./Wyndham-Hotels-Resorts-Is-Worst-Case-Scenario-Already-Priced-In/wh.PNG)
+{% asset_img wh.PNG %}
 
 Summary
   - WH is down 58.09% from recent highs of $60.94.
