@@ -9,7 +9,7 @@ tags:
  - Smart Contracts
 ---
 
-{% asset_img s1.jpeg "Image by mohamed Hassan from Pixabay"%}
+{% asset_img s1.jpeg '"Image by mohamed Hassan from Pixabay"'%}
 
 At this point, you have likely heard of cryptocurrencies paired with stories of wild speculation; however, there is much more to the phenomenon than just fortune-hunters. Intelligent developers across the globe are leveraging the underlying blockchain technology to create innovative new solutions to age-old problems.
 
