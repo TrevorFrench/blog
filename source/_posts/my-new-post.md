@@ -7,11 +7,11 @@ tags:
 -Investment
 ---
 Summary
-  • WH is down 58.09% from recent highs of $60.94.
+  - WH is down 58.09% from recent highs of $60.94.
 
-  • WH announced on Tuesday (03/17) that it would be withdrawing it’s 2020 outlook announced on 02/13.
+  - WH announced on Tuesday (03/17) that it would be withdrawing it’s 2020 outlook announced on 02/13.
 
-  • The previous outlook already had between -5.99% and -7.94% of revenue growth included in the forecast before even considering the impact the coronavirus would have.
+  - The previous outlook already had between -5.99% and -7.94% of revenue growth included in the forecast before even considering the impact the coronavirus would have.
 
 The hotel industry is one of the most affected by the recent COVID-19 outbreak. Occupancy rates are negligible as people are self-quarantining to prevent the spread of this disease.
 
