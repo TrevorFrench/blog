@@ -57,10 +57,10 @@ widgets:
 # Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
 social:
   Github: https://github.com/TrevorFrench
-  Medium:
-  Linkedin:
-  Youtube:
-  Outlook:
+  Medium: https://medium.com/@FrenchTrevor
+  Linkedin: https://www.linkedin.com/in/frenchtrevor/
+  Youtube: https://www.youtube.com/channel/UCi4hTi1Vo2YQkiwtQJuve0w
+  PublishOx:
   Gmail:
 
 
