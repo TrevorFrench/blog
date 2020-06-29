@@ -8,7 +8,7 @@ tags: Investment
 {% asset_img post-asset-folder/wh.png Hotel Room Door %}
 
 Summary
-  - WH is down 58.09% from recent highs of $60.94.
+  - WH is down 58.09% from recent highs of $60.94..
 
   - WH announced on Tuesday (03/17) that it would be withdrawing it’s 2020 outlook announced on 02/13.
 
