@@ -1,5 +1,5 @@
 ---
-title: Wyndham Hotels & Resorts: Is Worst Case Scenario Already Priced In?
+title: "Wyndham Hotels & Resorts: Is Worst Case Scenario Already Priced In?"
 date: 2020-03-23 00:00:00
 categories: Investment
 tags: Investment
