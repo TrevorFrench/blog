@@ -19,7 +19,7 @@ To give an idea of how big this market is and how fast it’s growing:
 
 -In the first quarter of 2018 Microsoft, Amazon, and Google reported a combined revenue of \$8.4 billion from cloud computing alone.
 
--In the first quarter of 2019 the three tech giants reported &#36;13.3 billion in combined revenue from cloud computing (annualized, that’s a market worth over &#36;50 billion).
+-In the first quarter of 2019 the three tech giants reported <span class="tex2jax_ignore">$13.3 billion in combined revenue from cloud computing (annualized, that’s a market worth over $50 billion).</span>
 
 -These statistics illustrate a market growth of over 58%.
 
