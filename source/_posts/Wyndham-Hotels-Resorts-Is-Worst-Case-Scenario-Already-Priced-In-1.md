@@ -5,7 +5,7 @@ categories: Investment
 tags: Investment
 ---
 
-![Alt Text](post-asset-folder/wh.png)
+![Alt Text](post-asset-folder/wh.PNG)
 
 Summary
   - WH is down 58.09% from recent highs of $60.94.
