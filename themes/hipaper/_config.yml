@@ -97,11 +97,11 @@ baidu_site_verification:
 qihu_site_verification:
 
 # Miscellaneous
-google_analytics:
+google_analytics: true
 gauges_analytics:
 baidu_analytics:
 tencent_analytics:
-busuanzi_analytics: true
+busuanzi_analytics:
 twitter:
 google_plus:
 fb_admins:
