@@ -4,8 +4,6 @@ date: 2020-03-23 00:00:00
 categories: Investment
 tags: Investment
 ---
-
-![Alt Text](a/wh.png)
 {% asset_img wh.png %}
 
 Summary
