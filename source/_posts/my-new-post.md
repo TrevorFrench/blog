@@ -1,10 +1,8 @@
 ---
 title: Wyndham Hotels & Resorts: Is Worst Case Scenario Already Priced In?
 date: 2020-03-23 00:00:00
-categories:
--Investment
-tags:
--Investment
+categories: Investment
+tags: Investment
 ---
 Summary
   - WH is down 58.09% from recent highs of $60.94.
