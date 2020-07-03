@@ -1,7 +1,13 @@
 ---
 title: How to Develop Mental Toughness in One Easy Step
 date: 2016-11-13 00:00:00
-tags: Personal Development
+categories: Personal Development
+tags:
+ - Personal Development
+ - Mental Toughness
+ - Growth
+ - Success
+ 
 ---
 Before I reveal to you the magic secret to becoming mentally “tough”, let me describe to you what exactly mental toughness is. You may hear different people defining the concept in different ways. Some would call it synonymous with words such as “strength” or “tenacity” others might define it as “the never-ceasing ability to persevere”.
 
@@ -11,15 +17,15 @@ What many people fail to see is the bigger obstacle standing between them and th
 
 Muhammad Ali said it best:
 
-*“I hated every minute of training, but I said “Don’t quit. Suffer now and live the rest of your life as a champion.”*
+*“I hated every minute of training, but I said “Don’\&#39;t quit. Suffer now and live the rest of your life as a champion.”*
 
-I’ll stop leading you all on now.
+I&#39;ll stop leading you all on now.
 
 **Step 1 for Developing Mental Toughness:**
 
 **- Do hard things.**
-It’s such a simple truth, it almost sounds paradoxical, doesn’t it? You might be asking “How can I develop the mental toughness to do hard things if I have to do hard things in order to develop it?”
+It&#39;s such a simple truth, it almost sounds paradoxical, doesn&#39;t it? You might be asking “How can I develop the mental toughness to do hard things if I have to do hard things in order to develop it?”
 
-Start small, do things you don’t want to do and gradually progress into harder and harder things. Start by making your bed if you need to, before you know it you could have the emotional endurance to swim oceans. (Maybe not, but I guarantee you’ll be an immensely more capable person).
+Start small, do things you don&#39;t want to do and gradually progress into harder and harder things. Start by making your bed if you need to, before you know it you could have the emotional endurance to swim oceans. (Maybe not, but I guarantee you’ll be an immensely more capable person).
 
 ***“To build mental toughness, you have to inconvenience yourself.*** *The early morning runs if you hate early morning runs, the late night runs if you hate late night runs, the snowy, cold, the worst conditions you can get, put yourself in those conditions and really make it inconvenient, and you start to get a genuine expectation of winning for the price you had to pay.” -Chael Sonnen*

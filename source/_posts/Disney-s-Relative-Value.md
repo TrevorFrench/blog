@@ -1,7 +1,11 @@
 ---
 title: Disney's Relative Value
 date: 2019-03-05 00:00:00
-tags: Investment
+categories: Finance
+tags:
+ - Investment
+ - Disney
+ - Stocks
 ---
 **Disney&#39;s Economic Moat & Market Position**
 An “economic moat” is essentially a company&#39;s protection from competitors and disruptors in the form of competitive advantages. These moats can range from access to capital to proprietary technology. Warren Buffett, the creator of this idea, states the following in relation to it:

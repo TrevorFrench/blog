@@ -1,9 +1,16 @@
 ---
 title: 'Stock Overview: KeyCorp (NYSE: KEY)'
 date: 2019-07-13 00:00:00
+categories: Finance
 tags:
  - Investment
  - Stock Overview
+ - KeyCorp
+ - KeyBank
+ - Banking
+ - Banks
+ - Stocks
+ 
 ---
 KeyCorp is a holding company which owns the well-known retail bank KeyBank. As of today, KeyCorp is trading at $17.87. Here are a few things that investors should be paying attention to:
 
@@ -13,6 +20,6 @@ KeyCorp is a holding company which owns the well-known retail bank KeyBank. As o
 - Although KEY continued to raise dividends throughout the 2001 recession, it did cut dividends massively during the 2008 financial crisis.
 - KEY still has not returned to pre-recession prices nor dividend yields.
 
-The company has been in business since 1849. Although it may be seen by some as a relic of the old financial system, KeyCorp has been striving to innovate within it’s retail banking services as well as it’s commercial banking services with implementations of consumer products such as Zelle (a peer-to-peer payments application) and commercial products such as KeyNavigator (a commercial online banking application).
+The company has been in business since 1849. Although it may be seen by some as a relic of the old financial system, KeyCorp has been striving to innovate within it&#39;s retail banking services as well as it&#39;s commercial banking services with implementations of consumer products such as Zelle (a peer-to-peer payments application) and commercial products such as KeyNavigator (a commercial online banking application).
 
 **Rating: BUY**

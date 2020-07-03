@@ -1,14 +1,21 @@
 ---
 title: How I Completed Half of my M.S. in Two Months
 date: 2020-02-18 00:00:00
+categories: Higher Education
 tags:
  - Education
  - Personal Development
+ - Masters
+ - Degree
+ - College
+ - Online Education
+ - Higher Education
+ - Grad School
 ---
 
 {% asset_img s3.png %}
 
-The choice to pursue my Master’s Degree was fueled by a desire to maintain a competitive edge, not to lose relevance in the job market, and to ensure I didn’t get stuck in the first job I accepted after undergrad. However, I’m not sure I would have committed right away if it weren’t for the program offering at Western Governors University (WGU).
+The choice to pursue my Master&#39;s Degree was fueled by a desire to maintain a competitive edge, not to lose relevance in the job market, and to ensure I didn&#39;t get stuck in the first job I accepted after undergrad. However, I&#39;m not sure I would have committed right away if it weren&#39;t for the program offering at Western Governors University (WGU).
 
 WGU allows students to pace themselves through classes which permits them to work as quickly or as slowly as they would like (as long as they meet the minimum term requirements). Also, instead of paying per credit, students pay per six month “term”.
 
@@ -28,4 +35,4 @@ Finishing these classes put me at an important milestone: finishing approximatel
 
 The structure of the program has allowed me to accomplish a lot in my personal life as well as my academic life. During this time I was able to maintain side projects (like my personal website), start a new job (sometimes working 70+ hours a week), and relocate for work.
 
-I look forward to completing my degree this year and sharing what I’ve learned.
+I look forward to completing my degree this year and sharing what I&#39;ve learned.

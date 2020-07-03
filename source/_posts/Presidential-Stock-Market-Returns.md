@@ -2,11 +2,13 @@
 title: Presidential Stock Market Returns
 date: 2020-03-21 00:00:00
 categories:
- - Investment
+ - Finance
  - History
 tags:
  - Investment
  - History
+ - U.S. Presidents
+ - Historical Returns
 ---
 Can the performance of U.S. presidents be measured by stock market performance? How has the market performed throughout the tenure of various presidents?
 
@@ -26,6 +28,6 @@ Finally, George W. Bush was in office during the “Great Recession”. This rec
 
 **Which President Oversaw the Most Growth?**
 
-Bill Clinton saw the index increase by 209.79% during his tenure. His administration’s economic policy was characterized by a decrease in national debt, budget surpluses, tax reform, and free trade agreements. However, President Clinton also enacted measures which essentially deregulated multiple facets of the finance industry. While these measures may have resulted in short-term economic growth, some suppose that it may have been a contributing factor to the “Great Recession” mentioned before.
+Bill Clinton saw the index increase by 209.79% during his tenure. His administration&#39;s economic policy was characterized by a decrease in national debt, budget surpluses, tax reform, and free trade agreements. However, President Clinton also enacted measures which essentially deregulated multiple facets of the finance industry. While these measures may have resulted in short-term economic growth, some suppose that it may have been a contributing factor to the “Great Recession” mentioned before.
 
 As the economy can be dramatically affected by such a wide variety of events (many of which are unforeseeable), it is difficult to judge a presidency solely on the performance of stock market indices. However, presidential administrations certainly have a huge role in anticipating and responding to events which could have harmful effects on the economy as well as encouraging actions which would improve the economy.

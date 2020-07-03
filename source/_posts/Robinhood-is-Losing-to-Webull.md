@@ -1,21 +1,30 @@
 ---
 title: Robinhood is Losing to Webull
 date: 2020-02-15 00:00:00
-tags: Investment
+categories:
+ - Finance
+ - Apps
+tags:
+ - Investment
+ - Robo-Advisors
+ - Robinhood
+ - Webull
+ - Referrals
+
 ---
 {% asset_img s4.png %}
 
-In the battle to create a better way to invest online, Robinhood is losing to Webull — Here’s why:
+In the battle to create a better way to invest online, Robinhood is losing to Webull — Here&#39;s why:
 
 **Data**
 Not only does Webull provide a much more comprehensive data service (complete with financials, charting, and technical indicators), Robinhood often provides incorrect or incomplete data, especially when it comes to dividends.
 
-This is huge for serious investors. When putting your money on the line you want to make sure you have all of the facts. Webull provides access to quarterly reports, a wide range of financial statistics, institutional holdings, ETF weighting’s, insider activity, industry statistics (and the list literally keeps going on).
+This is huge for serious investors. When putting your money on the line you want to make sure you have all of the facts. Webull provides access to quarterly reports, a wide range of financial statistics, institutional holdings, ETF weighting&#39;s, insider activity, industry statistics (and the list literally keeps going on).
 
 Not only is this service challenging online brokerages, it could potentially be a challenger to market data services such as Yahoo Finance, Morningstar, Seeking Alpha, and possibly even the mighty Bloomberg if it continues to expand its scope.
 
 **IRAs**
-Although many people choose to invest in regular brokerage accounts, most savvy investors leverage at least one tax advantaged account. Webull currently allows you to create traditional IRAs, Roth IRAs, and Rollover IRAs while Robinhood supports none.
+Although many people choose to invest in regular brokerage accounts, most savvy investors leverage at least one tax-advantaged account. Webull currently allows you to create traditional IRAs, Roth IRAs, and Rollover IRAs while Robinhood supports none.
 
 Additionally, supporting IRAs allows the organization to attract long-term customers who will make regular contributions to their accounts rather than novice investors looking to make a quick buck.
 
@@ -32,7 +41,7 @@ One aspect that not a lot of people mention is that Webull has a robust social f
 **Referral Program**
 Not only does Webull pay more per referral, it also has no caps on how much a person can earn whereas Robinhood caps referral commissions out at $500 per year (as of 02/15/2020).
 
-This isn’t a huge deal for the average person but it is meaningful when it comes to influencer marketing. Influencers on platforms such as YouTube are incentivized to talk about Webull over Robinhood as they could potentially earn a lot more money.
+This isn&#39;t a huge deal for the average person but it is meaningful when it comes to influencer marketing. Influencers on platforms such as YouTube are incentivized to talk about Webull over Robinhood as they could potentially earn a lot more money.
 
 Currently, both platforms allow both the referrer and the referee to receive free stock when a person signs up using an affiliate link.
 

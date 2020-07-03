@@ -3,10 +3,12 @@ title: 'Cryptocurrency & Smart Contracts: How the World is Changing'
 date: 2020-05-10 00:00:00
 categories:
  - Cryptocurrency
- - Smart Contracts
 tags:
  - Cryptocurrency
  - Smart Contracts
+ - Transactions
+ - Contracts
+ - Blockchain
 ---
 
 {% asset_img s1.jpeg '"Image by mohamed Hassan from Pixabay" "Image by mohamed Hassan from Pixabay"'%}
