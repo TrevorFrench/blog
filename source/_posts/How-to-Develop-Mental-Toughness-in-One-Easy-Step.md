@@ -7,7 +7,7 @@ tags:
  - Mental Toughness
  - Growth
  - Success
- 
+
 ---
 Before I reveal to you the magic secret to becoming mentally “tough”, let me describe to you what exactly mental toughness is. You may hear different people defining the concept in different ways. Some would call it synonymous with words such as “strength” or “tenacity” others might define it as “the never-ceasing ability to persevere”.
 
@@ -17,7 +17,7 @@ What many people fail to see is the bigger obstacle standing between them and th
 
 Muhammad Ali said it best:
 
-*“I hated every minute of training, but I said “Don’\&#39;t quit. Suffer now and live the rest of your life as a champion.”*
+*“I hated every minute of training, but I said “Don&#39;t quit. Suffer now and live the rest of your life as a champion.”*
 
 I&#39;ll stop leading you all on now.
 
