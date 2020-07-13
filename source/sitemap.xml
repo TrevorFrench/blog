@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    
+
   <url>
     <loc>http://blog.trevorfrench.com/</loc>
     <lastmod>2020-07-03T00:14:23+00:00</lastmod>
@@ -392,6 +392,10 @@
     <lastmod>2020-07-03T00:14:23+00:00</lastmod>
     <priority>0.64</priority>
   </url>
-
+  <url>
+    <loc>http://blog.trevorfrench.com/2020/07/12/Stock-Overview-Uber-Technologies-NYSE-UBER/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
 
   </urlset>
