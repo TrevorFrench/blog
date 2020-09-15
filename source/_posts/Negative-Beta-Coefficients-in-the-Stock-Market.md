@@ -248,3 +248,80 @@ x <- list(as.numeric(arna1$coef[2]),
 #PRINT OUT LIST OF BETA COEFFICIENTS
 print(x)
 ```
+The results are presented below:
+
+{% asset_img img6.png %}
+
+As can be observed, the first inflection point narrowed our data down to only eight observations with negative beta coefficients. These eight stocks would likely move forward to the next step of analysis; however, two of the stocks were ADRs which meant that the currency exchange rate had to be factored into the regression model.
+
+To accomplish this, the following code was executed:
+
+```R
+ADR <- read_excel(“C:/Users/Frenc/OneDrive/Desktop/ADR.xlsx”)
+
+flrafRegression <- lm(ADR$FLRAF ~ ADR$SPY + ADR$GBP)
+summary(flrafRegression)
+ihicyRegression <- lm(ADR$IHICY ~ ADR$SPY + ADR$JPY)
+summary(ihicyRegression)
+```
+ADR.xlsx combined the previously gathered exchange rate data with the relevant stock variables and was limited to only the desired timeframe. This code produced the following results:
+
+{% asset_img img7.png %}
+
+{% asset_img img8.png %}
+
+As can be observed, FLRAF’s beta changed from -0.00595 to -0.007924 and IHICY’s changed from -0.02372 to -0.02170 after taking exchange rates into account.
+
+Further review and verification revealed two more ADRs in the list: BUD and COE. As such, the following code was executed to adjust for currency interactions:
+
+```R
+budRegression <- lm(ADR$BUD ~ ADR$SPY + ADR$EURO)
+summary(budRegression)
+coeRegression <- lm(ADR$COE ~ ADR$SPY + ADR$CNY)
+summary(coeRegression)
+```
+
+{% asset_img img9.png %}
+
+{% asset_img img10.png %}
+
+***It is important to note that simply specifying the exchange rate in the model may not consider exogenous effects which occur when currencies strengthen and weaken against each other.***
+
+This left the analysis with the following eight observations:
+
+{% asset_img img11.png %}
+
+The ADR dataset was then updated to include the post-inflection data and the flowing code was executed:
+
+```R
+#DETERMINE POST-INFLECTION BETA
+postInfOne <- output[1:7, ]
+postInfOneOne <- ADR[1:7, ]
+
+p1flraf <- lm (postInfOne$FLRAF ~ postInfOne$SPY + postInfOneOne$GBP)
+p1ihicy <- lm (postInfOne$IHICY ~ postInfOne$SPY + postInfOneOne$JPY)
+p1bud <- lm (postInfOne$FLRAF ~ postInfOne$SPY + postInfOneOne$EURO)
+p1coe <- lm (postInfOne$FLRAF ~ postInfOne$SPY + postInfOneOne$CNY)
+
+p1fgp <- lm(postInfOne$FGP ~ postInfOne$SPY)
+p1tco <- lm(postInfOne$TCO ~ postInfOne$SPY)
+p1vgz <- lm(postInfOne$VGZ ~ postInfOne$SPY)
+p1asps <- lm(postInfOne$ASPS ~ postInfOne$SPY)
+
+y <- list(as.numeric(p1flraf$coef[2]),
+          as.numeric(p1ihicy$coef[2]),
+          as.numeric(p1bud$coef[2]),
+          as.numeric(p1coe$coef[2]),
+          as.numeric(p1fgp$coef[2]),
+          as.numeric(p1tco$coef[2]),
+          as.numeric(p1vgz$coef[2]),
+          as.numeric(p1asps$coef[2]))
+
+print(y)
+```
+
+The final data for the first inflection point is as follows:
+
+{% asset_img img12.png %}
+
+The same process was then performed for the second inflection point. After running the following code, only four data points were found to have a negative beta coefficient (3Y monthly) preceding the inflection point.
