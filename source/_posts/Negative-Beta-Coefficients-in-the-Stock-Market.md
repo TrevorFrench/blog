@@ -10,15 +10,15 @@ This report is a statistical analysis of the validity of using stocks with negat
 
 Does an equity with a negative beta coefficient in a bull market truly make a worthwhile hedge in a bear market?
 
-Conventional stock market wisdom suggests that stocks which have inverse relationships with overall market performance may have a place in an investor’s portfolio if said investor believes the overall market is going to experience a moment of decline (Streissguth, 2019). Mathematically, this theory makes sense; however, it is unclear if the theory holds water in real-life applications. A majority of stocks with negative beta coefficients may simply be underperforming or non-performing assets that continue to perform poorly in a downturn.
+Conventional stock market wisdom suggests that stocks which have inverse relationships with overall market performance may have a place in an investor&#39;s portfolio if said investor believes the overall market is going to experience a moment of decline (Streissguth, 2019). Mathematically, this theory makes sense; however, it is unclear if the theory holds water in real-life applications. A majority of stocks with negative beta coefficients may simply be underperforming or non-performing assets that continue to perform poorly in a downturn.
 
 The hypotheses and null hypothesis are as follows:
 
-   **H<sub>0</sub>:** Stocks with negative beta coefficients perform as expected during distressed market conditions (there is no statistically significant change in beta coefficients).
+    **H<sub>0</sub>:** Stocks with negative beta coefficients perform as expected during distressed market conditions (there is no statistically significant change in beta coefficients).
 
-   **H<sub>1</sub>:** Stocks with negative beta coefficients perform better than expected relative to market indices during distressed market conditions (beta coefficients decrease).
+    **H<sub>1</sub>:** Stocks with negative beta coefficients perform better than expected relative to market indices during distressed market conditions (beta coefficients decrease).
 
-   **H<sub>2</sub>:** Stocks with negative beta coefficients perform worse than expected relative to market indices during distressed market conditions (beta coefficients increase).
+    **H<sub>2</sub>:** Stocks with negative beta coefficients perform worse than expected relative to market indices during distressed market conditions (beta coefficients increase).
 
 **Data Collection**
 
@@ -106,13 +106,13 @@ The resulting table begins as follows and continues through 08/31/2000:
 
 {% asset_img img1.png %}
 
-The advantage of preparing this data in Excel is that it isn’t necessary to spend time creating a script to prepare the data; however, if the amount of data were larger, it may make sense to spend the time writing a script rather than spending time manually manipulating the data. Setting the data up in a table like this will allow for each column to be read in as a variable in R for regression to be performed. Additionally, the regression can be performed directly in Excel. This format also sets the data up nicely for Excel-based regression to be executed.
+The advantage of preparing this data in Excel is that it isn&#39;t necessary to spend time creating a script to prepare the data; however, if the amount of data were larger, it may make sense to spend the time writing a script rather than spending time manually manipulating the data. Setting the data up in a table like this will allow for each column to be read in as a variable in R for regression to be performed. Additionally, the regression can be performed directly in Excel. This format also sets the data up nicely for Excel-based regression to be executed.
 
 The data for the independent variable (S&P 500) was then appended to the table:
 
 {% asset_img img2.png %}
 
-For quick reference, ADRs were then color-coded by country. Each country was then given a corresponding Excel tab with a matching color which contains the historical exchange rates for the country’s native currency. Setting the data up this way allows for easy access to desired information through tools like Excel’s “VLOOKUP()” function.
+For quick reference, ADRs were then color-coded by country. Each country was then given a corresponding Excel tab with a matching color which contains the historical exchange rates for the country&#39;s native currency. Setting the data up this way allows for easy access to desired information through tools like Excel&#39;s “VLOOKUP()” function.
 
 These steps are illustrated by the following images:
 
@@ -124,7 +124,7 @@ These steps are illustrated by the following images:
 
 **Analysis**
 
-While linear regression is how the beta statistic is commonly calculated within the industry, it can also be calculated simply by dividing covariance by variance (Nickolas, 2019). However, this analysis will be using complete linear regression models to dive more deeply into the strength of the relationships and evaluate more fully the null hypothesis that the difference between beta coefficients is actually zero. Additionally, linear regression is easier to use when evaluating models with multiple independent variables. Out all of the tools I’ve used throughout this program, I’ve found that R is the easiest to use when performing regression methods on larger data sets
+While linear regression is how the beta statistic is commonly calculated within the industry, it can also be calculated simply by dividing covariance by variance (Nickolas, 2019). However, this analysis will be using complete linear regression models to dive more deeply into the strength of the relationships and evaluate more fully the null hypothesis that the difference between beta coefficients is actually zero. Additionally, linear regression is easier to use when evaluating models with multiple independent variables. Out all of the tools I&#39;ve used throughout this program, I&#39;ve found that R is the easiest to use when performing regression methods on larger data sets
 
 This analysis will be focusing on two “inflection points” from which the market turned from a positive trend to a negative trend. Specifically, these two inflection points are October 31st, 2007 and December 31st, 2019. The next step was to calculate the Beta Coefficient (3Y monthly) from each of those points for every one of the dependent variables. This was done using linear regression in R with the following code:
 
@@ -268,7 +268,7 @@ ADR.xlsx combined the previously gathered exchange rate data with the relevant s
 
 {% asset_img img8.png %}
 
-As can be observed, FLRAF’s beta changed from -0.00595 to -0.007924 and IHICY’s changed from -0.02372 to -0.02170 after taking exchange rates into account.
+As can be observed, FLRAF&#39;s beta changed from -0.00595 to -0.007924 and IHICY&#39;s changed from -0.02372 to -0.02170 after taking exchange rates into account.
 
 Further review and verification revealed two more ADRs in the list: BUD and COE. As such, the following code was executed to adjust for currency interactions:
 
@@ -374,7 +374,7 @@ z <- list(as.numeric(pre2arna$coef[2]),
 print(z)
 ```
 
-The four observations were DCMYY (-0.0038776), WMT (-0.03485316), AMGN (-0.1831979), and HRB (-0.03964931). DCMYY’s regression model was adjusted to include currency interaction between the USD and JPY using the following code:
+The four observations were DCMYY (-0.0038776), WMT (-0.03485316), AMGN (-0.1831979), and HRB (-0.03964931). DCMYY&#39;s regression model was adjusted to include currency interaction between the USD and JPY using the following code:
 
 ```R
 ADR2 <- read_excel("C:/Users/Frenc/OneDrive/Desktop/ADR2.xlsx")
