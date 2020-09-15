@@ -325,3 +325,155 @@ The final data for the first inflection point is as follows:
 {% asset_img img12.png %}
 
 The same process was then performed for the second inflection point. After running the following code, only four data points were found to have a negative beta coefficient (3Y monthly) preceding the inflection point.
+
+
+```R
+inflectionTwo <- output[154:190, ]
+
+pre2arna <- lm(inflectionTwo$ARNA ~ inflectionTwo$SPY)
+pre2fgp <- lm(inflectionTwo$FGP ~ inflectionTwo$SPY)
+pre2aem <- lm(inflectionTwo$AEM ~ inflectionTwo$SPY)
+pre2slp <- lm(inflectionTwo$SLP ~ inflectionTwo$SPY)
+pre2awr <- lm(inflectionTwo$AWR ~ inflectionTwo$SPY)
+pre2tco <- lm(inflectionTwo$TCO ~ inflectionTwo$SPY)
+pre2hrl <- lm(inflectionTwo$HRL ~ inflectionTwo$SPY)
+pre2wdfc <- lm(inflectionTwo$WDFC ~ inflectionTwo$SPY)
+pre2pso <- lm(inflectionTwo$PSO ~ inflectionTwo$SPY)
+pre2dcmyy <- lm(inflectionTwo$DCMYY ~ inflectionTwo$SPY)
+pre2vgz <- lm(inflectionTwo$VGZ ~ inflectionTwo$SPY)
+pre2so <- lm(inflectionTwo$SO ~ inflectionTwo$SPY)
+pre2gild <- lm(inflectionTwo$GILD ~ inflectionTwo$SPY)
+pre2rhhby <- lm(inflectionTwo$RHHBY ~ inflectionTwo$SPY)
+pre2has <- lm(inflectionTwo$HAS ~ inflectionTwo$SPY)
+pre2rost <- lm(inflectionTwo$ROST ~ inflectionTwo$SPY)
+pre2wmt <- lm(inflectionTwo$WMT ~ inflectionTwo$SPY)
+pre2amgn <- lm(inflectionTwo$AMGN ~ inflectionTwo$SPY)
+pre2hrb <- lm(inflectionTwo$HRB ~ inflectionTwo$SPY)
+pre2dltr <- lm(inflectionTwo$DLTR ~ inflectionTwo$SPY)
+
+z <- list(as.numeric(pre2arna$coef[2]),
+          as.numeric(pre2fgp$coef[2]),
+          as.numeric(pre2aem$coef[2]),
+          as.numeric(pre2slp$coef[2]),
+          as.numeric(pre2awr$coef[2]),
+          as.numeric(pre2tco$coef[2]),
+          as.numeric(pre2hrl$coef[2]),
+          as.numeric(pre2wdfc$coef[2]),
+          as.numeric(pre2pso$coef[2]),
+          as.numeric(pre2dcmyy$coef[2]),
+          as.numeric(pre2vgz$coef[2]),
+          as.numeric(pre2so$coef[2]),
+          as.numeric(pre2gild$coef[2]),
+          as.numeric(pre2rhhby$coef[2]),
+          as.numeric(pre2has$coef[2]),
+          as.numeric(pre2rost$coef[2]),
+          as.numeric(pre2wmt$coef[2]),
+          as.numeric(pre2amgn$coef[2]),
+          as.numeric(pre2hrb$coef[2]),
+          as.numeric(pre2dltr$coef[2])
+        )
+
+print(z)
+```
+
+The four observations were DCMYY (-0.0038776), WMT (-0.03485316), AMGN (-0.1831979), and HRB (-0.03964931). DCMYY’s regression model was adjusted to include currency interaction between the USD and JPY using the following code:
+
+```R
+ADR2 <- read_excel("C:/Users/Frenc/OneDrive/Desktop/ADR2.xlsx")
+
+preADR2 <- ADR2[154:190, ]
+
+adjpre2dcmyy <- lm(preADR2$DCMYY ~ inflectionTwo$SPY + preADR2$JPY)
+
+summary(adjpre2dcmyy)
+```
+
+This resulted in the following output:
+
+{% asset_img img13.png %}
+
+As the beta coefficient turned positive when the exchange rate was included, DCMYY was excluded from further analysis. The next step for the other three observations was to gather the post-inflection data. This was accomplished using the code displayed below:
+
+```R
+#GATHER BETA COEFFICIENTS FOR THE SECOND POST-INFLECTION POINT
+postInfTwo <- output[119:155, ]
+#View(postInfTwo)
+
+p2wmt <- lm(postInfTwo$WMT ~ postInfTwo$SPY)
+p2amgn <- lm(postInfTwo$AMGN ~ postInfTwo$SPY)
+p2hrb <- lm(postInfTwo$HRB ~ postInfTwo$SPY)
+
+z <- list(as.numeric(p2wmt$coef[2]),
+          as.numeric(p2amgn$coef[2]),
+          as.numeric(p2hrb$coef[2]))
+print(z)
+```
+
+The final data for the second inflection point is included in this table:
+
+{% asset_img img14.png %}
+
+**Data Summary and Implications**
+
+Testing the hypotheses of this analysis was done by performing a Paired sample T-test, using T distribution (DF=10) (two-tailed) with the following code:
+
+```R
+before <- c(-0.05472,
+            -0.25392,
+            -0.12322,
+            -0.06046,
+            -0.007924,
+            -0.0217,
+            -0.21292,
+            -0.00336,
+            -0.1831979,
+            -0.03964931,
+            -0.03485316
+          )
+
+after <- c(0.1471804,
+           -0.01966157,
+           -0.03566156,
+           0.003014498,
+           -0.05585217,
+           -0.02989029,
+           -0.190013,
+           0.005399438,
+           -0.03735994,
+           0.02661733,
+           -0.01906176
+        )
+
+t.test(before, after, paired = TRUE, alternative = "two.sided")
+```
+The results are displayed below:
+
+{% asset_img img15.png %}
+
+This demonstrates that the null hypothesis which states that there is no change in beta coefficients after an inflection point can be rejected at at least the 95% level. The mean difference between pre-inflection and post-inflection data was -0.07187598 meaning that, on average, beta coefficients increased by more than 0.07 after an inflection point. This shows preference for H2 which states that stocks with negative beta coefficients perform worse than expected relative to market indices during distressed market conditions (beta coefficients increase).
+
+The limitations of this analysis include a relatively small sample size with possible bias in the selection process (a truly representative sample may not have been achieved). However, based on this analysis alone, it is recommended that investors seeking to use equities with negative coefficients as a hedge against overall market downturns expect their assets to become more correlated to the market in a downturn.
+
+Two approaches which may be appropriate for future study would be to obtain an entire population to study rather than a sample and to separate observations by the reasons they might have an inverse relationship with the market such as the stock being counter-cyclical or under-performing. This would allow each regression model to be more correctly specified.
+
+**Sources**
+
+Streissguth, T. (2019, March 31). Is a Negative Beta Coefficient More Risky Than a Positive in the Stock Market? Retrieved June 27, 2020, from https://finance.zacks.com/negative-beta-coefficient-risky-positive-stock-market-7596.html
+
+Nickolas, S. (2020, February 05). The Formula for Calculating Beta. Retrieved June 27, 2020, from https://www.investopedia.com/ask/answers/070615/what-formula-calculating-beta.asp
+
+Historical Exchange Rates Tool & Forex History Data. (2020). Retrieved July 13, 2020, from https://www.ofx.com/en-us/forex-news/historical-exchange-rates/
+
+Caplinger, D. (2012, December 12). Negative-Beta Stocks: Worth Buying? Retrieved July 14, 2020, from https://www.fool.com/how-to-invest/2012/12/12/negative-beta-stocks-worth-buying.aspx
+
+Negative Beta Stocks. (2020). Retrieved July 10, 2020, from https://www.marketbeat.com/market-data/negative-beta-stocks/
+
+Hacker, D. (2008, January 28). Can beta be negative? Retrieved July 10, 2020, from https://www.analystforum.com/t/can-beta-be-negative/5351
+
+Carnevale, C. (2015, May 21). The Great Beta Hoax: Not an Accurate Measure of Risk After All. Retrieved July 10, 2020, from https://www.advisorperspectives.com/commentaries/2015/05/21/the-great-beta-hoax-not-an-accurate-measure-of-risk-after-all
+
+Sanchez, CFA, L. (2020, January 15). This Countercyclical Stock Could Be a Good Hedge. Retrieved July 10, 2020, from https://www.fool.com/investing/2020/01/15/this-countercyclical-stock-could-be-a-good-hedge.aspx
+
+Delaet, R. (2020, May 15). 3 Strong Hedges For A Second Market Crash. Retrieved July 10, 2020, from https://seekingalpha.com/article/4347970-3-strong-hedges-for-second-market-crash
+
+Divine, J. (2020, March 18). 7 Stocks That Soar in a Recession. Retrieved July 10, 2020, from https://money.usnews.com/investing/slideshows/7-stocks-that-soar-in-a-recession?slide=2
