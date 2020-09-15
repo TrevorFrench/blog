@@ -4,8 +4,6 @@ date: 2020-09-14 16:43:05
 tags:
 ---
 
-!!!THIS POST IS CURRENTLY UNDERGOING FORMATTING ITERATIONS!!!
-
 This report is a statistical analysis of the validity of using stocks with negative beta coefficients as hedges against economic downturns. The scope of this report does not include financial instruments which use short positions to artificially create inverse relationships.
 
 **Research Question**
