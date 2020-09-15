@@ -14,11 +14,11 @@ Conventional stock market wisdom suggests that stocks which have inverse relatio
 
 The hypotheses and null hypothesis are as follows:
 
-    **H<sub>0</sub>:** Stocks with negative beta coefficients perform as expected during distressed market conditions (there is no statistically significant change in beta coefficients).
+  **H<sub>0</sub>:** Stocks with negative beta coefficients perform as expected during distressed market conditions (there is no statistically significant change in beta coefficients).
 
-    **H<sub>1</sub>:** Stocks with negative beta coefficients perform better than expected relative to market indices during distressed market conditions (beta coefficients decrease).
+  **H<sub>1</sub>:** Stocks with negative beta coefficients perform better than expected relative to market indices during distressed market conditions (beta coefficients decrease).
 
-    **H<sub>2</sub>:** Stocks with negative beta coefficients perform worse than expected relative to market indices during distressed market conditions (beta coefficients increase).
+  **H<sub>2</sub>:** Stocks with negative beta coefficients perform worse than expected relative to market indices during distressed market conditions (beta coefficients increase).
 
 **Data Collection**
 
